@@ -1,7 +1,7 @@
-#define IN_PIN_0 0
-#define IN_PIN_1 1
-#define IN_PIN_2 2
-#define IN_PIN_3 3
+#define IN_PIN_0 6
+#define IN_PIN_1 11
+#define IN_PIN_2 12
+#define IN_PIN_3 13
 #define NUM_LEDS 60
 
 typedef struct Pins{
