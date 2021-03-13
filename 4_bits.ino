@@ -15,6 +15,7 @@ Pins null_Pins = {0, 1, 0, 1};
 Pin current_Pins;
 unsigned char LEDS[NUM_LEDS];
 char *ins = (char *) malloc(256);
+char last_null = 1;
 
 void setup() {
   pinmode(IN_PIN_0, INPUT)
